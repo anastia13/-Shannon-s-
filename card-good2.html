@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#ffc40d">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="preload" href="fonts/CoFoSans-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/CoFoSans-Black.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/CoFoSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/CoFoSans-Medium.woff2" as="font" type="font/woff2" crossorigin>
+
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./js/sript.js">
+
+    <title>Flower Shop Shannon's</title>
+</head>
+
+<body>
+    <main>
+        <header class="header">
+       
+            <a href="index.html" class="logo"><img src="img\logo.png " alt="Logo "></a>
+           
+            <input type="text" class="input input-address" placeholder="Where are you sending flowers to?">
+           
+            <div class="buttons">
+              <button class="button button-primary">
+                <img src="img/user.svg" class="button-icon" alt="user">  
+                <span button-text>Sign in</span>
+              </button>
+              <button class="button " id="cart-button">
+                <img src="img/cart.png" class="button-icon" alt="shopping-cart">
+                <span class="button-text">Cart</span>
+              </button>
+            </div>
+          </header>
+        <section class="card-good">
+            <div class="container card-good__wrapper">
+                <div class="card-good__image-wrapper">
+                    <img class="card-good__image" src="./img/banana.png" alt="">
+                </div>
+                <div class="card-good__description">
+                    <h2 class="card-good__title-wrapper">
+                        <p class="card-good__brand">Home flower</p>
+                        <p class="card-good__title">Seasonal plant</p>
+                    </h2>
+                    <p class="card-good__price">25$</p>
+
+
+
+                    
+                    <div class="card-good__color-wrapper card-good__select__wrapper">
+                        
+
+
+                        
+                        <select  class="card-good__color-list card-good__select"  >
+                            <option  class="card-good__select-item" value="">Pot size</option>
+                            <option  class="card-good__select-item" value="dog">1</option>
+                            <option  class="card-good__select-item" value="cat">2</option>
+                            <option  class="card-good__select-item" value="hamster">3</option>
+                            <option  class="card-good__select-item" value="parrot">4</option>
+                            <option  class="card-good__select-item" value="spider">5</option>
+                            <option  class="card-good__select-item" value="goldfish">6</option>
+                        </select>
+
+
+<!-- 
+                        <ul >
+                            <li>Черный</li>
+                            <li class="card-good__select-item">Белый</li>
+                            <li class="card-good__select-item">Красный</li>
+                            <li class="card-good__select-item">Зеленый</li>
+                            <li class="card-good__select-item">Синий</li>
+                            <li class="card-good__select-item">Желтый</li>
+                        </ul> -->
+                    </div>
+                    
+                    <div class="card-good__sizes-wrapper card-good__select__wrapper">
+                        <select  class="card-good__color-list card-good__select"  >
+                            <option  class="card-good__select-item" value="">Color pot</option>
+                            <option  class="card-good__select-item" value="dog">Red</option>
+                            <option  class="card-good__select-item" value="cat">Orange</option>
+                            <option  class="card-good__select-item" value="hamster">Yellow</option>
+                            <option  class="card-good__select-item" value="parrot">Blue</option>
+                            <option  class="card-good__select-item" value="spider">Green</option>
+                            <option  class="card-good__select-item" value="goldfish">Brown</option>
+                        </select>
+                    </div>
+                    
+
+                    <button class="card-good__buy">Добавить в корзину</button>
+                </div>
+            </div>
+
+
+        </section>
+
+
+        <footer class="footer">
+            <div class="container">
+              <div class="footer-block">
+                <img src="img/logo.png" alt="logo" class="logo footer-logo">
+                <nav class="footer-nav">
+                  <a href="#" class="footer-link">About us</a>
+                  <a href="#" class="footer-link">Reviews</a>
+                  <a href="#" class="footer-link">Contacts</a>
+                  <a href="#" class="footer-link">Wholesale</a>
+                </nav>
+                <div class="social-links">
+                  <a href="#" class="social-link"><img src="img/instagram.svg" alt="instagram"></a>
+                  <a href="#" class="social-link"><img src="img/facebook.svg" alt="facebook"></a>
+                  <a href="#" class="social-link"><img src="img/vk.svg" alt="vk"></a>
+                </div>
+                
+              </div>
+              
+            </div>
+            
+          </footer>
+    </main>
+   
+
+</body>
+
+</html>
